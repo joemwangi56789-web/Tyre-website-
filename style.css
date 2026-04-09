@@ -1,4 +1,4 @@
-* {
+.* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -212,4 +212,6 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+.buy{
+   padding-top:50px;}
 
