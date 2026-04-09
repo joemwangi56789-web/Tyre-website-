@@ -145,10 +145,10 @@ nav a:hover {
     background: #ff3b3b;
 }
 .img1{
-    width:100px;
+    width:150px;
 }
 .img2{
-    height:100px;
+    height:200px;
 }
 .images{
     display:grid;
