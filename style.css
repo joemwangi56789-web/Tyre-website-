@@ -72,6 +72,9 @@ nav a:hover {
     padding: 50px 20px;
     text-align: center;
 }
+.view{
+color:orange;
+height:10px; 
 
 .categories h2 {
     margin-bottom: 30px;
