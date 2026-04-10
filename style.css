@@ -83,6 +83,8 @@ nav a:hover {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
+.himg1{
+height:150px;
 
 .card1{
     background: white;
