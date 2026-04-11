@@ -168,13 +168,21 @@ width:150px;
   animation-play-state: paused;
 }
 }
-    @keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
+    @keyframes slideStep {
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(0); }        /* pause */
+
+  25%  { transform: translateX(-220px); }
+  45%  { transform: translateX(-220px); }   /* pause */
+
+  50%  { transform: translateX(-440px); }
+  70%  { transform: translateX(-440px); }   /* pause */
+
+  75%  { transform: translateX(-660px); }
+  95%  { transform: translateX(-660px); }   /* pause */
+
+  100% { transform: translateX(0); } /* loop */
+}
 }
 .ph1{
     margin-right:20px;
