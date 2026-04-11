@@ -167,7 +167,6 @@ width:150px;
    images:hover {
   animation-play-state: paused;
 }
-}
     @keyframes slideStep {
   0%   { transform: translateX(0); }
   20%  { transform: translateX(0); }        /* pause */
