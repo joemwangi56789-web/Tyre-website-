@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (hero) {
 
         const images = [
-            "tmg.png",
+            "tmg.jpg",
             "tmg2.jpg",
             "img3.png"
         ];
