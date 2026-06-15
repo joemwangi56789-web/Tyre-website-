@@ -8,8 +8,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
         const images = [
             "tmg.png",
-            /*"tmg2.jpg",
-            "img3.png"*/
+            "tmg2.jpg",
+            "img3.png"
         ];
 
         let i = 0;
